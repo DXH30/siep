@@ -29,6 +29,12 @@ class Ruang extends CI_Controller
         redirect(base_url('ruang'));
     }
 
+    public function edit($id)
+    {
+        $this->ruang->edit($id);
+        redirect(base_url('ruang'));
+    }
+
     public function hapus($id)
     {
         $this->ruang->hapus($id);

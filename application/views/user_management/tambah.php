@@ -43,6 +43,7 @@
                                 <option value="">-PILIH-</option>
                                 <option value="admin">Admin</option>
                                 <option value="user">User</option>
+                                <option value="eksekutif">Eksekutif</option>
                             </select>
                         </div>
                     </div>

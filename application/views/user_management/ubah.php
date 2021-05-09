@@ -43,6 +43,7 @@
                                 <option value="">-PILIH-</option>
                                 <option value="admin" <?= ($user->role == "admin") ? "selected" : "" ?>>Admin</option>
                                 <option value="user" <?= ($user->role == "user") ? "selected" : "" ?>>User</option>
+                                <option value="eksekutif" <?= ($user->role == "eksekutif") ? "selected" : "" ?>>Eksekutif</option>
                             </select>
                         </div>
                     </div>

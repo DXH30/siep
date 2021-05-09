@@ -32,6 +32,12 @@ class Data extends CI_Controller
         redirect(base_url('data'));
     }
 
+    public function edit($id)
+    {
+        $this->data->edit($id);
+        redirect(base_url('data'));
+    }
+
     public function hapus($id)
     {
         $this->data->hapus($id);

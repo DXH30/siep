@@ -27,6 +27,12 @@ class Divisi extends CI_Controller {
         redirect(base_url('divisi'));
     }
 
+    public function edit($id)
+    {
+        $this->divisi->edit($id);
+        redirect(base_url('divisi'));
+    }
+
     public function hapus($id)
     {
         $this->divisi->hapus($id);
