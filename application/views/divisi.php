@@ -23,7 +23,7 @@
                                                 <input id="nama" type="text" name="nama" class="form-control" placeholder="Nama Divisi" required>
                                             </div>
                                         </div>
-                                        <button type="button" class="btn btn-primary waves-effect waves-light">Tambah</button>
+                                        <input type="submit" class="btn btn-primary waves-effect waves-light" value="Tambah">
                                     </form>
                                 </div>
                             </div><!-- /.modal-content -->

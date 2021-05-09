@@ -23,7 +23,7 @@
                                                 <input id="nama" type="text" name="nama" class="form-control" placeholder="Nama Ruangan" required>
                                             </div>
                                         </div>
-                                        <button type="button" class="btn btn-primary waves-effect waves-light">Tambah</button>
+                                        <input class="btn btn-primary waves-effect waves-light" type="submit" value="Tambah">
                                     </form>
                                 </div>
                             </div><!-- /.modal-content -->
